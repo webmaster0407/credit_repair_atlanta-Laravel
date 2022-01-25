@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ERROR</title>
+  </head>
+  <body>
+  <p><center style="color:red;">Sorry, your request has been denied.</center></p>
+  <p><center>Error Code: <?php echo $ab_config['error_headers'][$ab_config['header_error_code']]; ?></center></p>
+
+  </body>
+</html>

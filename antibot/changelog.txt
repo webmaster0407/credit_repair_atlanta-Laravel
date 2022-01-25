@@ -1,0 +1,82 @@
+﻿v. 7.010 of August 21, 2020:
+
+Minor bug fixes and improvements.
+
+------------------------------------------------------------------------
+
+v. 7.009 of August 19, 2020:
+
+Added bot statistics setting to the config: yandex, google, mailru, bing): 
+$ab_config['extended_bot_stat'] = 0; // 1 - enable, 0 - disable.
+
+------------------------------------------------------------------------
+
+v. 7.008 of July 3, 2020:
+
+Check page template changed (nothing important, just styles changed to Bootstrap).
+
+------------------------------------------------------------------------
+
+v. 7.007 of June 12, 2020:
+
+If you disable recaptcha and timeout in the config, the check will be very fast.
+
+------------------------------------------------------------------------
+
+v. 7.006 of June 3, 2020:
+
+In the query log, the time saving format has been changed from "hours:minutes" to "hours:minutes:seconds".
+The bug that occurs if the SxGeo class is already declared on the site is fixed.
+Minor bug fixes and improvements.
+The file /antibot/test.php has been deleted (its functionality has been moved to /antibot/index.php).
+
+------------------------------------------------------------------------
+
+v. 7.005 of May 18, 2020:
+
+The "Exit" link has been fixed (previously it did not delete the cookie).
+Fixed the error of saving PTR during  the local visits.
+Pictures of country flags have been optimized (size reduced in ~4 times).
+Styles have been changed, the file "/antibot/static/offcanvas.css" deleted (please delete it manually).
+Added filtering by status in the log: stop, auto, post, local. 
+Added export of all blocking rules from the database to a .txt file.
+Added ability to import the list of blocking rules to the database.
+Added the ability to delete all the available rules at once.
+
+------------------------------------------------------------------------
+
+v. 7.004 of May 8, 2020:
+
+Minor bug fixes and improvements.
+
+------------------------------------------------------------------------
+
+v. 7.003 of May 7, 2020:
+
+Minor bug fixes and improvements.
+Bugs fixed in SxGeo.php appearing in php 7.4
+
+------------------------------------------------------------------------
+
+v. 7.002 of May 5, 2020:
+
+Cloud Server response timeout increased from 2 - 3 seconds for up to 4 seconds now.
+In approximately 1.5% of cases, this caused an issue for the redirect and led to the necessity of clicking the button.
+Basically, this behaves took place with a slow Internet connection.
+
+------------------------------------------------------------------------
+
+v. 7.001 of May 2, 2020:
+
+Changed the way the site interacts with the check server.
+Version 6 used iframe, now via JS.
+Visitor check page template changed, tpl.txt required.
+The fromcloud.php file has been deleted, it is no longer needed.
+$ab_config['cf_check'] is removed from the conf.php
+For check in the cloud, 2 servers are used, and not 1 as in version 6.
+Improved protection quality in local ab.php
+To upgrade from 6.* versions - update the script and tpl.txt through the admin panel.
+
+------------------------------------------------------------------------
+
+Changelog version 6 and older: https://antibot.cloud/static/changelog6.txt

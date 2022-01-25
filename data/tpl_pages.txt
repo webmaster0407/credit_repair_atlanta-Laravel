@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title><?php echo $book['title']; ?></title>
+<meta name="charset" content="UTF-8">
+<meta name="referrer" content="unsafe-url"/>
+<link rel="canonical" href="<?php echo $canonical; ?>">
+<link rel="shortcut icon" href="images/favicon.png">
+<meta name="keywords" content="<?php echo $book['title'] ?>"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
+<style>::-webkit-scrollbar{width:0px;height:0px;}::-webkit-scrollbar-track-piece{background:rgba(0, 0, 0, 0.26);}::-webkit-scrollbar-thumb:vertical{height:0px;background:rgb(0, 0, 0);}::-webkit-scrollbar-thumb:vertical:hover{background:#000000;}::-webkit-scrollbar-thumb:horizontal{width:0px;background:#000000;}::-webkit-scrollbar-thumb:horizontal:hover{background:rgb(0, 0, 0);}nav.nav-scroll{position: relative;z-index: 2;height: 2rem;box-sizing: border-box;overflow-y: hidden;padding: 1rem;border-top: 1px solid rgba(0,0,0,0.075);line-height: 1em;}nav.nav-scroll > ul{overflow-x: auto;text-align: center;white-space: nowrap;-webkit-overflow-scrolling: touch;padding-bottom: 1rem;}nav.nav-scroll > ul > li > a{font-weight: 500;}.news-slide > li > .uk-card{box-shadow: none;border: 1px solid rgba(0,0,0,0.075);}h1, h2, h3, h4, h5, h6{font-weight: 700;}.uk-logo > img{height: 58px;}#header.uk-sticky-below{box-shadow: 0 2px 14px 0 rgba(0,0,0,0.07);}pre{white-space: pre-line;display: block;padding: 9.5px;margin: 0 0 10px;font-size: 13px;line-height: 1.42857143;color: #333;word-break: break-all;word-wrap: break-word;background-color: #f5f5f5;border: 1px solid #ccc;border-radius: 4px;}</style>
+</head>
+<body>
+    <header>
+    <div class="uk-container">
+    <nav id="navbar" data-uk-navbar>
+    <div class="uk-navbar-left nav-overlay uk-visible@m">
+    <ul class="uk-navbar-nav">
+    <li>
+    <a href="/" title="Main">
+    <?php echo $host; ?><?php echo $book['title']; ?></a>
+</li>
+<li>
+    <a href="#desc" title="<?php echo $book['title']; ?> Description">Description</a>
+</li>
+<li>
+    <a href="#related" title="Related Services <?php echo $book['title']; ?>">Related Services</a>
+</li>
+<li>
+    <a href="#similar" title="Similar Services <?php echo $book['title']; ?>">Similar Services</a>
+</li>
+</ul>
+</div>
+<div class="uk-hidden-notouch">
+    <ul>
+    <li>
+    <a href="/" title="Main">
+    <?php echo $host; ?> Credit Repair</a>
+</li>
+<li>
+    <a href="#desc" title="<?php echo $book['title']; ?> Description">Description</a>
+</li>
+<li>
+    <a href="#related" title="Related Services <?php echo $book['title']; ?>">Related Services</a>
+</li>
+<li>
+    <a href="#similar" title="Similar Services <?php echo $book['title']; ?>">Similar Services</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</header>
+<main class="uk-container">
+    <section id="desc"> <h1 class="uk-text-center"><?php echo $book['title']; ?></h1>
+	<img loading="lazy" class="uk-width-1-1 uk-margin-bottom" alt="<?php echo $book['title']; ?>" src="https://picsum.photos/1200/300"/>
+<div uk-grid>
+    <div class="uk-width-1-4@m">
+	<?php bojan_start(); ?>
+	<p>A {few|some|insufficient|only one} of the {basic|root|key|prime} {credit|honesty|upon|ascription} {repair|put back in|adjust|service} tasks {include|subsume|catalogue|embody}:</p>
+<li>Identifying the {appropriate|set aside|seize|seemly} consumer {protection|bulwark|haven|sanctuary} laws {for|inasmuch as|on|in the interest} your {particular|rigorous|precise|special} situation.</li>
+<li>Contacting the {appropriate|take|correct|seemly} creditor or {credit|acknowledgment|attribution|trust} {bureau|section|dresser|chest of drawers} to {notify|intimate|inform|apprise} them of the issue.</li>
+<li>Performing {follow-up|reinforcement|backup|support} actions depending on the responses received.</li>
+<li>Tracking correspondence and paperwork.</li>
+<li>Visiting a notary {public|accessible|visible|non-exclusive} if documents {require|be short of|need|command} authentication.</li>
+</div>
+<div class="uk-width-3-4@m">
+<p>
+<?php echo $book['imgurl']; ?>.
+</p>
+</div>
+</div>
+<p><a href="<?php echo $canonical; ?>">
+    <?php echo $book['title']; ?>
+</a> - When you {have|acquire|entertain|comprise} a {bad|rotten|putrid|disconsolate} {credit|assign|commendation|honesty} {score|legions|latest|grounds} you basically {have|be undergoing|comprise|deliver} two options, either you can {try|evaluate|undertaking|whack at} to {fight|mel‚e|confute|zeal} disputes, bankruptcies, {unpaid|owing|owed|unsettled} debts on your own or {hire|lease|rental|appoint} a {credit|trust|dependability|credence} {repair|service|mend|nick} {company|followers|attendance|crowd} to {take|select|hold|rob} {off|rancid|slack|postponed} this {burden|saddle with|albatross|oppress} and do the {heavy|overloaded|excessive|insupportable} lifting {for|for the treatment of|in compensation|in search} you. {Credit|Rely on|Honesty|Belief} {repair|renovation|put back in|put} can be a challenging endeavor. If you are like most people, you {have|organize|be subjected to|contain} the {will|choose|determination|wishes} to {secure|fixed|preserve|safe} a {better|outdo|improve|more intelligent} {credit|trustworthiness|upon|commendation} {score|masses|chump|situation}, but {perhaps|maybe|as the case may be|possibly} you don’t {know|positive|recognize|conscious} the way. While it’s {true|fast|unvarnished|be realized} that you {have|own|clothed|hold} the {option|choice|way out|chance} of repairing {credit|accept|tribute|attribute} {solo|unaccompanied|individual|unaccompanied}, there are benefits to working with a {professional|expert|authority|efficient} {credit|creditation|honesty|confidence} {repair|nick|form|patch up} company. Most people {have|be struck by|set up|be suffering with} {better|wiser|preferably|punter} things to do than spending {time|sometime|opportunity|pass‚} {learning|information|culture|erudition} all they can {about|to|up|everywhere} {credit|creditation|acknowledgment|faithfulness} reporting, {credit|acclaim|solvency|trust} scores, and consumer law. Although do-it-yourself {credit|trustworthiness|ascription|commendation} {repair|form|adjustment|restore} can {sometimes|every so often|at times|every now} {net|trap|screen|realize} a {quick|vigorous|skilful|excitable} {success|sensation|attainment|good}, all too {often|time|over|continually} the {process|transform|technique|treat} requires specialized {knowledge|discernment|understanding|consciousness} and can {take|away|bear|brave} much longer.</p>
+<p>
+    <?php echo $host; ?> 
+<?php bojan_end(); ?>
+</section>
+<hr>
+<section id="download">
+    <table class="uk-table">
+<tr>
+    <td>
+		<h2><?php echo $book['title']; ?> - OUR SERVICES</h2>
+	</td>
+	<td>
+		<p>Collections</p>
+	</td>
+	<td>
+		<p>Bankruptcies</p>
+	</td>
+</tr>
+
+<tr>
+    <td>
+		<p>Late Payments</p>
+	</td>
+    <td>
+		<p>Repossessions</p>
+	</td>
+    <td>
+		<p>Charge Offs</p>
+	</td>
+</tr>
+<tr>
+    <td>
+		<p>Foreclosures</p>
+	</td>
+    <td>
+		<p>Liens</p>
+	</td>
+    <td>
+		<p>Judgements</p>
+	</td>
+</tr>
+</table>
+</section>
+<hr>
+<section id="related">
+    <h2>Related services:</h2>
+<nav class="uk-child-width-1-3@m" uk-grid>
+    <div>
+    <?php echo implode('</div>
+<div>', $menu); ?>
+</div>
+</nav>
+<?php bojan_start(); ?>
+<p><a href="<?php echo $canonical; ?>">
+    <?php echo $book['title']; ?></a> - With all that being said, we’ve identified {Emergency|Pinch|Predicament|Crisis} {Credit|Merit|Reliability|Ascription} Solutions, a Phoenix-based {leading|cardinal|prime|foremost} {credit|solvency|put|rely on} {repair|put|revamp|condition} {company|new zealand|theatre troupe|society} with years of {experience|encounter|knowledge|observation} that has helped thousands of people with {bad|inadequate|grotty|awful} or {poor|snuff|ill-starred|poor as a church-mouse} {credit|credence|creditation|acknowledgement} nationwide. Their {motto|moral|aphorism|catchword} as they {say|break|chance|rephrase} is “{Helping|Serving|Plateful|Ration} {cure|heal|corn|therapy} {bad|mephitic|poor|sinful} {credit|ascription|attribution|rely on} {for|against|benefit of|in spite of} {good|morality|angelic|all right} people”. Their {vision|dream|perception|foresight} is to be seen as the {hospital|dispensary|facility|sickbay} or {emergency|exigency|crisis|predicament} {room|range|stay|scope} that is {available|convenient|at one's fingertips|elbow} 24/7 to {help|lend a hand|inform appropriate|stop} you {cure|prescription|restore to health|marinate} your sickness or {disease|bug|contagion|affliction}, which metaphorically speaking is fixing a {bad|naff|melancholy|grouchy} {credit|tribute|faithfulness|belief} score. After doing {extensive|considerable|voluminous|all-embracing} {research|delving|scrutiny|analysis} in the {many|uncountable|multifarious|multitudinous} {good|data d fabric|virtuous|usefulness} reviews the {company|associates|partnership|following} has and interviewing {many|multifarious|uncountable|profuse} of their clients, it is {clear|clear|vivid|pure} that this {company|coterie|ensemble|players} is a shining {light|come out|street-light|unclear} in the {financial|pecuniary|fiscal|economic} {situation|berth|employment|setting} {for|in the interest of|for the treatment of|as a service to} {many|numerous|uncountable|innumerable} people. The {company|troop|throng|attendance} is {very|particular|pure|deeply} {honest|sincere|direct|principled} and upfront in stating that {credit|recognition|faithfulness|upon} {repair|service|mend|put} can {quite|rather|definitely|relatively} {often|usually|many times|habitually} {take|pick|drink|get} months or {even|uniform|uniform|despite that smooth} longer than a year to {really|quite|indeed|definitely} {improve|redress|further|fix up} a {bad|irascible|noxious|grouchy} {credit|faithfulness|ascription|reliability} {score|hosts|archery nock|total} significantly. If any {credit|belief|accept|acknowledgement} {repair|service|renewal|renew} {company|friends|visitors|circle} tells you {otherwise|in another situation|under other circumstances|else}, they are {simple|austere|uncomplicated|understandable} deceiving you. With that being said, if you {factor|proxy|influence|agent} in that a {bad|mephitic|rotten|defective} {credit|reliability|faith|probity} {credit|attribute|acclaim|solvency} {score|line|mug|her own coin} can be the {result|issue|consequence|denouement} of {many|myriad|numerous|various} years of {bad|inadequate|vitiated|unhealthy} {financial|economic|monetary|pecuniary} decisions, {several|a few|divers|very many} months to a year to {reverse|vicissitude|transpose|declare null} all of this is a {great|smashing|enormous|critical} deal. The {company|band|circle|retinue} can {even|the score with|flat|unvarying} {help|ease|remedy|alleviate} their clients with {student|apprentice|schoolboy|devotee} loans, bankruptcies, judgements, collections, and more.</p>
+<?php bojan_end(); ?>
+</section>
+<hr>
+<section id="similar">
+<h2>Similar services:</h2>
+<nav class="uk-child-width-1-3@m" uk-grid>
+<?php echo implode(' ', $seo); ?>
+</nav>
+<?php bojan_start(); ?>
+<?php echo $host; ?> - Along its proven {track|wake trace|footprints|railway} {record|cd|diary|set down}, {Emergency|Exigency|Crisis|Difficulty} {Credit|Trust|Honour|Ascription} Solutions also prides itself in {offering|gift|contribution|present} a bilingual {staff|baton|wand|stake} that can {communicate|be in tune|send on|transfer} with people in multiple languages. {Emergency|Difficulty|Pinch|Predicament} {Credit|Creditation|Confidence|Upon} Solutions has been a {dominate|govern|rule|have under control} {force|extort|coerce|coercion} in {helping|serving|dollop|ration} the American latino {population|denizens|residents|natives} {build|body|found|construct} and {improve|make progress|rectify|mend} their {credit|trustworthiness|confidence in|faith} reports. {Emergency|Exigency|Difficulty|Predicament} {Credit|Tribute|Creditation|Acknowledgment} Solutions estimates that more than 50% of their clients {come|sink in fare|be received b affect|befall} from hispanic backgrounds or {barely|only just|no more than|only} {know|differentiate|positive|recollect} English. This is why {Emergency|Crisis|Difficulty|Predicament} {Credit|Dependability|Acclaim|Honour} Solutions has built a {department|subdivision|worry|bailiwick} of {credit|esteem|creditation|rely on} specialists who are latino and Spanish speaking who specialize in {helping|help|portion|dollop} people {get|access|come to|make both ends meet} the {proper|usual|suited|thoroughgoing} {credit|commendation|upon|acknowledgment} solutions they {need|penury|stress|fundamental} to {achieve|accomplish|win|accomplish} their {financial|economic|pecuniary|monetary} goals {even|smooth|temperate|rhythmical} if there is a English {language|jargon|tongue|words} barrier. The {company|proprietorship|actors|coterie} opens its “{hospital|health centre|sanitarium|asylum} doors” to anyone who is having a {financial|economic|monetary|pecuniary} {emergency|pinch|danger|exigency} {even|uninterrupted|sober-sided|sober} if they {only|sole|but|just} {speak|require|engaged|converse in} Spanish. This mantra has allowed their {company|band|crowd|retinue} to {cure|smoke|nostrum|remedy} {bad|ruinous|putrefied|unpleasant} {credit|trust|faithfulness|rely on} {for|owing|because|on} a {diverse|miscellaneous|multiform|separate} and multifaceted audience with all sorts of {different|separate|out of the ordinary|odd} kinds of cases and situations.</p>
+<?php bojan_end(); ?>
+</section> 
+<hr> 
+</main>
+<footer> <div class="uk-container">
+    <div class="uk-child-width-1-3@m" uk-grid>
+    <div>
+    <p>&copy; <?php echo $host; ?> <?php echo date('Y'); ?>. All Rights Reserved.</p>
+</div>
+<div>
+
+</div>
+<div>
+    <a href="https://twitter.com/" rel="noopener nofollow">Twitter</a>
+<br/>
+<a href="https://www.facebook.com/" rel="noopener nofollow">Facebook</a>
+<br/>
+<a href=" https://www.pinterest.com/" rel="noopener nofollow">Pinterest</a>
+</div>
+</div>
+</div>
+</footer> <script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js">
+    
+</script> </body>
+</html>

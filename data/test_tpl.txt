@@ -1,0 +1,120 @@
+<?php
+// это вставить в самое начало шаблона:
+$db_books = new SQLite3('data/books.db'); 
+$db_books->busyTimeout(1000);
+$db_books->exec("PRAGMA journal_mode = OFF;");
+$db_books->exec("PRAGMA synchronous = OFF;");
+$get_title = $db_books->escapeString($title);
+//$book = @$db_books->querySingle("SELECT * FROM books WHERE title='300 Consejos Y Técnicas Para Hacer Abalorios Livro';", true);
+$get_title = $db_books->escapeString($title);
+$titleq = mb_substr($get_title, 0, -1);
+$book = @$db_books->querySingle("SELECT * FROM books WHERE title='".$titleq."';", true);
+//$book = @$db_books->querySingle("SELECT * FROM books WHERE title='".$get_title."';", true);
+?>
+<html>
+<head>
+<title><?php echo $title; ?></title>
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Company name</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="/">Home</a>
+    <a class="p-2 text-dark" href="/sitemap.xml">Sitemap</a>
+    <a class="p-2 text-dark" href="/html.php">Html</a>
+    <a class="p-2 text-dark" href="/rss.php">Rss</a>
+  </nav>
+</div>
+</header>
+
+
+<section class="jumbotron text-center">
+    <div class="container">
+	
+	<h1><?php echo $title; ?></h1>
+	
+	<img src="<?php echo @$book['imgurl']; ?>"  class="mb-3" style="min-width:250px;max-width:100%" />
+	
+      <table class="table table-striped text-center">
+  <tbody>
+    <tr>
+      <td><strong>ISBN: </strong></td>
+	  <td><?php echo @$book['isbn']; ?></td>
+    </tr>
+    <tr>
+      <td><strong>Year: </strong></td>
+	  <td><?php echo @$book['year']; ?></td>
+    </tr>
+	    <tr>
+      <td><strong>Lang: </strong></td>
+	  <td><?php echo @$book['lang']; ?></td>
+    </tr>
+	    <tr>
+      <td><strong>Pages: </strong></td>
+	  <td><?php echo @$book['pages']; ?></td>
+    </tr>
+  </tbody>
+</table>
+
+		
+      <p class="lead text-muted"><?php echo @$book['descr']; ?></p>
+	  
+
+	  
+
+    </div>
+  </section>
+
+<div class="container">
+<h3>Related Books:</h3>
+<br/>
+<br/>
+<?php echo $links; ?>
+
+
+
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="/docs/4.5/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <small class="d-block mb-3 text-muted">© 2017-2020</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Cool stuff</a></li>
+          <li><a class="text-muted" href="#">Random feature</a></li>
+          <li><a class="text-muted" href="#">Team feature</a></li>
+          <li><a class="text-muted" href="#">Stuff for developers</a></li>
+          <li><a class="text-muted" href="#">Another one</a></li>
+          <li><a class="text-muted" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Resource</a></li>
+          <li><a class="text-muted" href="#">Resource name</a></li>
+          <li><a class="text-muted" href="#">Another resource</a></li>
+          <li><a class="text-muted" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Team</a></li>
+          <li><a class="text-muted" href="#">Locations</a></li>
+          <li><a class="text-muted" href="#">Privacy</a></li>
+          <li><a class="text-muted" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
